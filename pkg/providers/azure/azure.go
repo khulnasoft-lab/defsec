@@ -1,19 +1,19 @@
 package azure
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/azure/appservice"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/authorization"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/compute"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/container"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/database"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/datafactory"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/datalake"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/keyvault"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/monitor"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/network"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/securitycenter"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/storage"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/synapse"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/appservice"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/authorization"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/compute"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/container"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/database"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/datafactory"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/datalake"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/keyvault"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/monitor"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/network"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/securitycenter"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/storage"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/synapse"
 )
 
 type Azure struct {

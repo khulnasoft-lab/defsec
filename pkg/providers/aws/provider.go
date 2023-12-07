@@ -1,6 +1,6 @@
 package aws
 
-import "github.com/aquasecurity/defsec/pkg/types"
+import "github.com/khulnasoft-lab/defsec/pkg/types"
 
 type TerraformProvider struct {
 	Metadata types.Metadata

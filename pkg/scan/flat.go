@@ -1,8 +1,8 @@
 package scan
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers"
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 )
 
 type FlatResult struct {

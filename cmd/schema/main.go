@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aquasecurity/defsec/pkg/rego/schemas"
+	"github.com/khulnasoft-lab/defsec/pkg/rego/schemas"
 	"github.com/spf13/cobra"
 )
 

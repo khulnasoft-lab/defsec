@@ -1,8 +1,8 @@
 package s3
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 type Bucket struct {

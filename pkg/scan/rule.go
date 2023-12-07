@@ -8,11 +8,11 @@ import (
 	"golang.org/x/text/cases"
 	"golang.org/x/text/language"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/providers"
-	"github.com/aquasecurity/defsec/pkg/severity"
-	"github.com/aquasecurity/defsec/pkg/state"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 )
 
 type CheckFunc func(s *state.State) (results Results)

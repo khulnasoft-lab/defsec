@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aquasecurity/defsec/pkg/rego/schemas"
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/rego/schemas"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/open-policy-agent/opa/util"
 )

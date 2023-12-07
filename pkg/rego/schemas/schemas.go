@@ -1,7 +1,7 @@
 package schemas
 
 import (
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 var SchemaMap = map[types.Source]Schema{

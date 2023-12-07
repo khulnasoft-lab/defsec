@@ -3,7 +3,7 @@ package rego
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/rules"
 	rules2 "github.com/aquasecurity/trivy-policies/rules"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/stretchr/testify/assert"

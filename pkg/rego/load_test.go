@@ -5,7 +5,7 @@ import (
 	"embed"
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

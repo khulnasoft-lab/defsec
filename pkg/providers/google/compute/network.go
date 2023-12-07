@@ -1,7 +1,7 @@
 package compute
 
 import (
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 type Network struct {

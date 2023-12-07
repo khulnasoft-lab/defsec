@@ -1,12 +1,12 @@
 package nifcloud
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/computing"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/dns"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/nas"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/network"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/rdb"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/sslcertificate"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/computing"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/dns"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/nas"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/network"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/rdb"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/sslcertificate"
 )
 
 type Nifcloud struct {

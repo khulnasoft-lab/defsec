@@ -20,6 +20,8 @@ github.com/apparentlymart/go-textseg/v13 v13.0.0 h1:Y+KvPE1NYz0xl601PVImeQfFyEy6
 github.com/apparentlymart/go-textseg/v13 v13.0.0/go.mod h1:ZK2fH7c4NqDTLtiYLvIkEghdlcqw7yxLeM89kiTRPUo=
 github.com/apparentlymart/go-textseg/v15 v15.0.0 h1:uYvfpb3DyLSCGWnctWKGj857c6ew1u1fNQOlOtuGxQY=
 github.com/apparentlymart/go-textseg/v15 v15.0.0/go.mod h1:K8XmNZdhEBkdlyDdvbmmsvpAG721bKi0joRfFdHIWJ4=
+github.com/aquasecurity/defsec v0.93.2-0.20231117234854-a13ada52a90f h1:cO9S78J2eBx9tEIZYwFoousuYWV4DtgQlGsZUusMyNY=
+github.com/aquasecurity/defsec v0.93.2-0.20231117234854-a13ada52a90f/go.mod h1:J30VViSgmoW2Ic/6aqVJO2qvuADsmZ3MYuNxPcU6Vt0=
 github.com/aquasecurity/trivy-policies v0.6.1-0.20231120231532-f6f2330bf842 h1:RnxM3eTcwPlA/WBwnmaEpeEk3WOCDcnz7yTIFxVL7us=
 github.com/aquasecurity/trivy-policies v0.6.1-0.20231120231532-f6f2330bf842/go.mod h1:BmEeSFgmBjo3avCli71736sy0veGcSUzGATupp1MCgA=
 github.com/arbovm/levenshtein v0.0.0-20160628152529-48b4e1c0c4d0 h1:jfIu9sQUG6Ig+0+Ap1h4unLjW6YQJpKZVmUzxsD4E/Q=
@@ -106,7 +108,6 @@ github.com/kr/text v0.1.0/go.mod h1:4Jbv+DJW3UT/LiOwJeYQe1efqtUx/iVham/4vfdArNI=
 github.com/kr/text v0.2.0 h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=
 github.com/kr/text v0.2.0/go.mod h1:eLer722TekiGuMkidMxC/pM04lWEeraHUUmBw8l2grE=
 github.com/kylelemons/godebug v1.1.0 h1:RPNrshWIDI6G2gRW9EHilWtl7Z6Sb1BR0xunSBf0SNc=
-github.com/kylelemons/godebug v1.1.0/go.mod h1:9/0rRGxNHcop5bhtWyNeEfOS8JIWk580+fNqagV/RAw=
 github.com/liamg/iamgo v0.0.9 h1:tADGm3xVotyRJmuKKaH4+zsBn7LOcvgdpuF3WsSKW3c=
 github.com/liamg/iamgo v0.0.9/go.mod h1:Kk6ZxBF/GQqG9nnaUjIi6jf+WXNpeOTyhwc6gnguaZQ=
 github.com/liamg/jfather v0.0.7 h1:Xf78zS263yfT+xr2VSo6+kyAy4ROlCacRqJG7s5jt4k=
