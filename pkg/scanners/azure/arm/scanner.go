@@ -7,21 +7,21 @@ import (
 	"io/fs"
 	"sync"
 
-	"github.com/aquasecurity/defsec/internal/adapters/arm"
-	"github.com/aquasecurity/defsec/pkg/rego"
-	"github.com/aquasecurity/defsec/pkg/rules"
-	"github.com/aquasecurity/defsec/pkg/scanners/azure"
-	"github.com/aquasecurity/defsec/pkg/state"
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/arm"
+	"github.com/khulnasoft-lab/defsec/pkg/rego"
+	"github.com/khulnasoft-lab/defsec/pkg/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/azure"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/debug"
+	"github.com/khulnasoft-lab/defsec/pkg/debug"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/scanners"
-	"github.com/aquasecurity/defsec/pkg/scanners/azure/arm/parser"
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/azure/arm/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/aquasecurity/defsec/internal/lint/adapter"
+	"github.com/khulnasoft-lab/defsec/internal/lint/adapter"
 	"golang.org/x/tools/go/analysis/singlechecker"
 )
 

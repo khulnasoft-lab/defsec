@@ -3,9 +3,9 @@ package sqs
 import (
 	"fmt"
 
-	"github.com/aquasecurity/defsec/internal/adapters/cloud/aws/test"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/sqs"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws/test"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/sqs"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 	localstack "github.com/aquasecurity/go-mock-aws"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	sqsapi "github.com/aws/aws-sdk-go-v2/service/sqs"
@@ -15,7 +15,7 @@ import (
 
 	"testing"
 
-	aws2 "github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
+	aws2 "github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
 )
 
 type queueDetails struct {

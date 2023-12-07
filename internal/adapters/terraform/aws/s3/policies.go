@@ -1,9 +1,9 @@
 package s3
 
 import (
-	iamAdapter "github.com/aquasecurity/defsec/internal/adapters/terraform/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	iamAdapter "github.com/khulnasoft-lab/defsec/internal/adapters/terraform/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 func (a *adapter) adaptBucketPolicies() {

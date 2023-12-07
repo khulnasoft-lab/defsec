@@ -7,7 +7,7 @@ import (
 
 	"github.com/liamg/memoryfs"
 
-	"github.com/aquasecurity/defsec/pkg/extrafs"
+	"github.com/khulnasoft-lab/defsec/pkg/extrafs"
 
 	"github.com/stretchr/testify/assert"
 )

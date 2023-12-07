@@ -3,12 +3,12 @@ package ec2
 import (
 	"fmt"
 
-	"github.com/aquasecurity/defsec/pkg/concurrency"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/concurrency"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
 	"github.com/aws/aws-sdk-go-v2/service/ec2/types"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ec2"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ec2"
 	ec2api "github.com/aws/aws-sdk-go-v2/service/ec2"
 )
 

@@ -1,9 +1,9 @@
 package mq
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/aws/mq"
-	"github.com/aquasecurity/defsec/pkg/terraform"
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/mq"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 func Adapt(modules terraform.Modules) mq.MQ {

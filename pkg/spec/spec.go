@@ -1,7 +1,7 @@
 package spec
 
 import (
-	"github.com/aquasecurity/defsec/rules/specs"
+	"github.com/khulnasoft-lab/defsec/rules/specs"
 )
 
 // Loader access compliance specs

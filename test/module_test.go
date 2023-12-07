@@ -7,25 +7,25 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/parser"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/internal/rules"
-	"github.com/aquasecurity/defsec/rules/cloud/policies/aws/iam"
+	"github.com/khulnasoft-lab/defsec/internal/rules"
+	"github.com/khulnasoft-lab/defsec/rules/cloud/policies/aws/iam"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/executor"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/executor"
 
-	"github.com/aquasecurity/defsec/pkg/providers"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 )
 
 var badRule = scan.Rule{

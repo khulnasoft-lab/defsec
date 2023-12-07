@@ -4,14 +4,14 @@ import (
 	"bytes"
 	"testing"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/pkg/providers"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/dynamodb"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/dynamodb"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

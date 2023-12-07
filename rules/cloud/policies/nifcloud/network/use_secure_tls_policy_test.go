@@ -3,10 +3,10 @@ package network
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/network"
-	"github.com/aquasecurity/defsec/pkg/scan"
-	"github.com/aquasecurity/defsec/pkg/state"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/network"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 	"github.com/stretchr/testify/assert"
 )
 

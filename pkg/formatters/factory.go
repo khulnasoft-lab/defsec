@@ -3,7 +3,7 @@ package formatters
 import (
 	"io"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 )
 
 func New() *factory {

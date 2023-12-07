@@ -1,9 +1,9 @@
 package resolver
 
 import (
-	"github.com/aquasecurity/defsec/pkg/scanners/azure"
-	"github.com/aquasecurity/defsec/pkg/scanners/azure/expressions"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/azure"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/azure/expressions"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 type Resolver interface {

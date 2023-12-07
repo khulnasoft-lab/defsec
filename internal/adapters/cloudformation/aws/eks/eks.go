@@ -1,8 +1,8 @@
 package eks
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/aws/eks"
-	"github.com/aquasecurity/defsec/pkg/scanners/cloudformation/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/eks"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloudformation/parser"
 )
 
 // Adapt ...

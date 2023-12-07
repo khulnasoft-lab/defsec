@@ -3,15 +3,15 @@ package ec2
 import (
 	"testing"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ec2"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ec2"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 )
 
 func Test_AdaptVPC(t *testing.T) {

@@ -4,17 +4,17 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
 
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/internal/rules"
+	"github.com/khulnasoft-lab/defsec/internal/rules"
 
-	"github.com/aquasecurity/defsec/pkg/providers"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
 )
 
 var CheckAccessKeysRotated = rules.Register(

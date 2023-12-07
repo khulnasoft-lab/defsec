@@ -1,11 +1,11 @@
 package github
 
 import (
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/github/branch_protections"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/github/repositories"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/github/secrets"
-	"github.com/aquasecurity/defsec/pkg/providers/github"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/github/branch_protections"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/github/repositories"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/github/secrets"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/github"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 )
 
 func Adapt(modules terraform.Modules) github.GitHub {

@@ -3,7 +3,7 @@ package parser
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 
 	"github.com/zclconf/go-cty/cty"
 

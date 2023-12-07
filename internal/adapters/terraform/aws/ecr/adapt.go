@@ -1,11 +1,11 @@
 package ecr
 
 import (
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ecr"
-	iamp "github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/terraform"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ecr"
+	iamp "github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 	"github.com/liamg/iamgo"
 )
 

@@ -3,17 +3,17 @@ package state
 import (
 	"reflect"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws"
-	"github.com/aquasecurity/defsec/pkg/providers/azure"
-	"github.com/aquasecurity/defsec/pkg/providers/cloudstack"
-	"github.com/aquasecurity/defsec/pkg/providers/digitalocean"
-	"github.com/aquasecurity/defsec/pkg/providers/github"
-	"github.com/aquasecurity/defsec/pkg/providers/google"
-	"github.com/aquasecurity/defsec/pkg/providers/kubernetes"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud"
-	"github.com/aquasecurity/defsec/pkg/providers/openstack"
-	"github.com/aquasecurity/defsec/pkg/providers/oracle"
-	"github.com/aquasecurity/defsec/pkg/rego/convert"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/cloudstack"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/digitalocean"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/github"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/google"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/kubernetes"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/openstack"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/oracle"
+	"github.com/khulnasoft-lab/defsec/pkg/rego/convert"
 )
 
 type State struct {

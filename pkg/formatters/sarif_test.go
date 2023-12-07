@@ -4,15 +4,15 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ec2"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ec2"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/pkg/providers"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/dynamodb"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/dynamodb"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -26,7 +26,7 @@ func Test_SARIF(t *testing.T) {
     {
       "tool": {
         "driver": {
-          "informationUri": "https://github.com/aquasecurity/defsec",
+          "informationUri": "https://github.com/khulnasoft-lab/defsec",
           "name": "defsec",
           "rules": [
             {
@@ -99,7 +99,7 @@ func Test_SARIF_nested_paths(t *testing.T) {
     {
       "tool": {
         "driver": {
-          "informationUri": "https://github.com/aquasecurity/defsec",
+          "informationUri": "https://github.com/khulnasoft-lab/defsec",
           "name": "defsec",
           "rules": [
             {

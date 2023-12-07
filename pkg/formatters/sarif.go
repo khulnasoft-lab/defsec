@@ -1,9 +1,9 @@
 package formatters
 
 import (
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
 	"github.com/owenrumney/go-sarif/v2/sarif"
 )
@@ -14,7 +14,7 @@ func outputSARIF(b ConfigurableFormatter, results scan.Results) error {
 		return err
 	}
 
-	run := sarif.NewRunWithInformationURI("defsec", "https://github.com/aquasecurity/defsec")
+	run := sarif.NewRunWithInformationURI("defsec", "https://github.com/khulnasoft-lab/defsec")
 	report.AddRun(run)
 
 	for _, res := range results {

@@ -1,9 +1,9 @@
 package ec2
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ec2"
-	"github.com/aquasecurity/defsec/pkg/terraform"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ec2"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 type naclAdapter struct {

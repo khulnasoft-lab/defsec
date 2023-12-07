@@ -6,9 +6,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 
 	"github.com/zclconf/go-cty/cty"
 

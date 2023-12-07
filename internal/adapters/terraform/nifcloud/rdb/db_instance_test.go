@@ -3,13 +3,13 @@ package rdb
 import (
 	"testing"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/rdb"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/rdb"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
 
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 )
 
 func Test_adaptDBInstances(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 	"github.com/liamg/memoryfs"
 )
 

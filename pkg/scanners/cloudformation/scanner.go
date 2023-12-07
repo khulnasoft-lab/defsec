@@ -8,21 +8,21 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/debug"
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/debug"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/cloudformation/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloudformation/parser"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	adapter "github.com/aquasecurity/defsec/internal/adapters/cloudformation"
-	"github.com/aquasecurity/defsec/internal/rules"
-	"github.com/aquasecurity/defsec/pkg/rego"
-	_ "github.com/aquasecurity/defsec/pkg/rules"
-	"github.com/aquasecurity/defsec/pkg/scanners"
+	adapter "github.com/khulnasoft-lab/defsec/internal/adapters/cloudformation"
+	"github.com/khulnasoft-lab/defsec/internal/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/rego"
+	_ "github.com/khulnasoft-lab/defsec/pkg/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

@@ -3,10 +3,10 @@ package api_gateway
 import (
 	"fmt"
 
-	"github.com/aquasecurity/defsec/pkg/concurrency"
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/concurrency"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 
-	v2 "github.com/aquasecurity/defsec/pkg/providers/aws/apigateway/v2"
+	v2 "github.com/khulnasoft-lab/defsec/pkg/providers/aws/apigateway/v2"
 
 	api "github.com/aws/aws-sdk-go-v2/service/apigatewayv2"
 	agTypes "github.com/aws/aws-sdk-go-v2/service/apigatewayv2/types"

@@ -3,8 +3,8 @@ package concurrency
 import (
 	"sync"
 
-	"github.com/aquasecurity/defsec/pkg/progress"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/progress"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 )
 
 type Context interface {

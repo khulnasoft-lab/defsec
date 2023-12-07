@@ -1,14 +1,14 @@
 package nifcloud
 
 import (
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/nifcloud/computing"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/nifcloud/dns"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/nifcloud/nas"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/nifcloud/network"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/nifcloud/rdb"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/nifcloud/sslcertificate"
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/nifcloud/computing"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/nifcloud/dns"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/nifcloud/nas"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/nifcloud/network"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/nifcloud/rdb"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/nifcloud/sslcertificate"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 )
 
 func Adapt(modules terraform.Modules) nifcloud.Nifcloud {

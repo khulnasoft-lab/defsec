@@ -3,13 +3,13 @@ package iam
 import (
 	"strings"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
 	"github.com/liamg/iamgo"
 
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
 )
 
 func sameProvider(b1, b2 *terraform.Block) bool {

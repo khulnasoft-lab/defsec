@@ -5,23 +5,23 @@ import (
 	"sort"
 	"time"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
 
-	"github.com/aquasecurity/defsec/pkg/debug"
+	"github.com/khulnasoft-lab/defsec/pkg/debug"
 
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 
-	"github.com/aquasecurity/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
 
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/pkg/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/rules"
 
-	"github.com/aquasecurity/defsec/pkg/rego"
+	"github.com/khulnasoft-lab/defsec/pkg/rego"
 
-	adapter "github.com/aquasecurity/defsec/internal/adapters/terraform"
+	adapter "github.com/khulnasoft-lab/defsec/internal/adapters/terraform"
 )
 
 // Executor scans HCL blocks by running all registered rules against them

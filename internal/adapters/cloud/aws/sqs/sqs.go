@@ -1,12 +1,12 @@
 package sqs
 
 import (
-	aws2 "github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
-	"github.com/aquasecurity/defsec/pkg/concurrency"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/sqs"
-	"github.com/aquasecurity/defsec/pkg/state"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	aws2 "github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/concurrency"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/sqs"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	sqsApi "github.com/aws/aws-sdk-go-v2/service/sqs"
 	sqsTypes "github.com/aws/aws-sdk-go-v2/service/sqs/types"

@@ -3,10 +3,10 @@ package ec2
 import (
 	"testing"
 
-	aws2 "github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
-	"github.com/aquasecurity/defsec/internal/adapters/cloud/aws/test"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ec2"
-	"github.com/aquasecurity/defsec/pkg/state"
+	aws2 "github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws/test"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ec2"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	vpcApi "github.com/aws/aws-sdk-go-v2/service/ec2"
 	vpcTypes "github.com/aws/aws-sdk-go-v2/service/ec2/types"

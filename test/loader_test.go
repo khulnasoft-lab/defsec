@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/rules"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

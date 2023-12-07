@@ -3,14 +3,14 @@ package emr
 import (
 	"testing"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/emr"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/emr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 )
 
 func Test_adaptSecurityConfiguration(t *testing.T) {

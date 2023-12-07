@@ -1,4 +1,4 @@
-module github.com/aquasecurity/defsec
+module github.com/khulnasoft-lab/defsec
 
 go 1.19
 

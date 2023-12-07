@@ -8,8 +8,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/parser/resolvers"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/parser/resolvers"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 
 	"github.com/zclconf/go-cty/cty"
 )

@@ -4,13 +4,13 @@ import (
 	"context"
 	"io"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloud/aws"
 
 	"github.com/spf13/cobra"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 )
 
 func init() {

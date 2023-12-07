@@ -3,14 +3,14 @@ package s3
 import (
 	"strings"
 
-	"github.com/aquasecurity/defsec/pkg/concurrency"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/concurrency"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 
-	"github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/s3"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/s3"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 	s3api "github.com/aws/aws-sdk-go-v2/service/s3"
 	s3types "github.com/aws/aws-sdk-go-v2/service/s3/types"
 	"github.com/liamg/iamgo"

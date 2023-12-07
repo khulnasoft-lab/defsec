@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aquasecurity/defsec/internal/rules"
-	rules2 "github.com/aquasecurity/defsec/rules"
+	"github.com/khulnasoft-lab/defsec/internal/rules"
+	rules2 "github.com/khulnasoft-lab/defsec/rules"
 	"github.com/open-policy-agent/opa/ast"
 	"github.com/open-policy-agent/opa/bundle"
 )

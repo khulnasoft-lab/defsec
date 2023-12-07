@@ -1,12 +1,12 @@
 package apigateway
 
 import (
-	"github.com/aquasecurity/defsec/internal/rules"
-	"github.com/aquasecurity/defsec/pkg/providers"
-	v1 "github.com/aquasecurity/defsec/pkg/providers/aws/apigateway/v1"
-	"github.com/aquasecurity/defsec/pkg/scan"
-	"github.com/aquasecurity/defsec/pkg/severity"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/internal/rules"
+	"github.com/khulnasoft-lab/defsec/pkg/providers"
+	v1 "github.com/khulnasoft-lab/defsec/pkg/providers/aws/apigateway/v1"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/severity"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 )
 
 var CheckNoPublicAccess = rules.Register(

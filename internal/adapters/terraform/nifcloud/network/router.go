@@ -1,9 +1,9 @@
 package network
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/nifcloud/network"
-	"github.com/aquasecurity/defsec/pkg/terraform"
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/nifcloud/network"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 func adaptRouters(modules terraform.Modules) []network.Router {

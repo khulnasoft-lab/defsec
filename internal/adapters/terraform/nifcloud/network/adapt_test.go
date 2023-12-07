@@ -3,7 +3,7 @@ package network
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

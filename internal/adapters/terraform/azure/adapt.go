@@ -1,21 +1,21 @@
 package azure
 
 import (
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/appservice"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/authorization"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/compute"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/container"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/database"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/datafactory"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/datalake"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/keyvault"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/monitor"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/network"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/securitycenter"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/storage"
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/azure/synapse"
-	"github.com/aquasecurity/defsec/pkg/providers/azure"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/appservice"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/authorization"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/compute"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/container"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/database"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/datafactory"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/datalake"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/keyvault"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/monitor"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/network"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/securitycenter"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/storage"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/azure/synapse"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 )
 
 func Adapt(modules terraform.Modules) azure.Azure {

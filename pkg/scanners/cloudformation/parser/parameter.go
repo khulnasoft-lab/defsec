@@ -3,7 +3,7 @@ package parser
 import (
 	"strconv"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/cloudformation/cftypes"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloudformation/cftypes"
 
 	"github.com/liamg/jfather"
 	"gopkg.in/yaml.v3"

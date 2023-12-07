@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
 
 	"github.com/stretchr/testify/assert"
 )

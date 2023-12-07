@@ -7,8 +7,8 @@ import (
 	"sync"
 	"testing"
 
-	aws2 "github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
-	"github.com/aquasecurity/defsec/pkg/progress"
+	aws2 "github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/progress"
 	localstack "github.com/aquasecurity/go-mock-aws"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"

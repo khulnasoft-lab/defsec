@@ -3,13 +3,13 @@ package ecr
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/ecr"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/ecr"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
 	"github.com/liamg/iamgo"
 

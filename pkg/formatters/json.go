@@ -3,7 +3,7 @@ package formatters
 import (
 	"encoding/json"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 )
 
 func outputJSON(b ConfigurableFormatter, results scan.Results) error {

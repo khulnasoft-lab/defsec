@@ -3,13 +3,13 @@ package iam
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
 
 	iamapi "github.com/aws/aws-sdk-go-v2/service/iam"
 
-	"github.com/aquasecurity/defsec/internal/adapters/cloud/aws/test"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws/test"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

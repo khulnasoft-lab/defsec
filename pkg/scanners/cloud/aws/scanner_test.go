@@ -5,18 +5,18 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/providers/azure"
-	"github.com/aquasecurity/defsec/pkg/providers/azure/authorization"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/authorization"
 
-	"github.com/aquasecurity/defsec/pkg/providers/aws/iam"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/iam"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/providers/aws"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/rds"
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/defsec/pkg/state"
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/rds"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

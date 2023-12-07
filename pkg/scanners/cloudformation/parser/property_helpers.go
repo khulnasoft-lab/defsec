@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/cloudformation/cftypes"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloudformation/cftypes"
 )
 
 func (p *Property) IsNil() bool {

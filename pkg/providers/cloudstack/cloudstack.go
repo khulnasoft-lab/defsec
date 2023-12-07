@@ -1,7 +1,7 @@
 package cloudstack
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/cloudstack/compute"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/cloudstack/compute"
 )
 
 type CloudStack struct {

@@ -1,7 +1,7 @@
 package appservice
 
 import (
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 type AppService struct {

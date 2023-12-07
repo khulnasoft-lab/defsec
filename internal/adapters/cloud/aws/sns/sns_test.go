@@ -3,9 +3,9 @@ package sns
 import (
 	"fmt"
 
-	"github.com/aquasecurity/defsec/internal/adapters/cloud/aws/test"
-	"github.com/aquasecurity/defsec/pkg/providers/aws/sns"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws/test"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/aws/sns"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 	"github.com/aws/aws-sdk-go-v2/aws"
 	snsapi "github.com/aws/aws-sdk-go-v2/service/sns"
 	"github.com/stretchr/testify/assert"
@@ -13,7 +13,7 @@ import (
 
 	"testing"
 
-	aws2 "github.com/aquasecurity/defsec/internal/adapters/cloud/aws"
+	aws2 "github.com/khulnasoft-lab/defsec/internal/adapters/cloud/aws"
 )
 
 type topicDetails struct {

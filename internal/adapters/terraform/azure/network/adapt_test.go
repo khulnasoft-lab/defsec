@@ -3,14 +3,14 @@ package network
 import (
 	"testing"
 
-	defsecTypes "github.com/aquasecurity/defsec/pkg/types"
+	defsecTypes "github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/providers/azure/network"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/network"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 )
 
 func Test_Adapt(t *testing.T) {

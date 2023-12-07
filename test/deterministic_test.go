@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/parser"
 
-	"github.com/aquasecurity/defsec/internal/rules"
+	"github.com/khulnasoft-lab/defsec/internal/rules"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/executor"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/executor"
 
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 
 	"github.com/stretchr/testify/require"
 )

@@ -3,7 +3,7 @@ package terraformplan
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraformplan/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraformplan/parser"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

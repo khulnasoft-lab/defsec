@@ -3,10 +3,10 @@ package apigateway
 import (
 	"testing"
 
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/tftestutil"
-	v2 "github.com/aquasecurity/defsec/pkg/providers/aws/apigateway/v2"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/tftestutil"
+	v2 "github.com/khulnasoft-lab/defsec/pkg/providers/aws/apigateway/v2"
 
-	"github.com/aquasecurity/defsec/test/testutil"
+	"github.com/khulnasoft-lab/defsec/test/testutil"
 )
 
 func Test_adaptDomainNamesV2(t *testing.T) {

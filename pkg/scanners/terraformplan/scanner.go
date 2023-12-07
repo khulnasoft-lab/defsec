@@ -6,13 +6,13 @@ import (
 	"io"
 	"io/fs"
 
-	"github.com/aquasecurity/defsec/pkg/debug"
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/scan"
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	terraformScanner "github.com/aquasecurity/defsec/pkg/scanners/terraform"
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/executor"
-	"github.com/aquasecurity/defsec/pkg/scanners/terraformplan/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/debug"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
+	terraformScanner "github.com/khulnasoft-lab/defsec/pkg/scanners/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/executor"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraformplan/parser"
 	doublestar "github.com/bmatcuk/doublestar/v4"
 )
 

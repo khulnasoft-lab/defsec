@@ -4,23 +4,23 @@ import (
 	"context"
 	"io/fs"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/azure/arm"
-	"github.com/aquasecurity/defsec/pkg/scanners/cloud/aws"
-	"github.com/aquasecurity/defsec/pkg/scanners/helm"
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
-	"github.com/aquasecurity/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/azure/arm"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloud/aws"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/helm"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/json"
-	"github.com/aquasecurity/defsec/pkg/scanners/toml"
-	"github.com/aquasecurity/defsec/pkg/scanners/yaml"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/json"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/toml"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/yaml"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
 
-	"github.com/aquasecurity/defsec/pkg/scanners"
-	"github.com/aquasecurity/defsec/pkg/scanners/cloudformation"
-	"github.com/aquasecurity/defsec/pkg/scanners/dockerfile"
-	"github.com/aquasecurity/defsec/pkg/scanners/kubernetes"
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/cloudformation"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/dockerfile"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/kubernetes"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform"
 )
 
 type nestableFSScanners interface {

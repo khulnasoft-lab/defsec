@@ -1,8 +1,8 @@
 package authorization
 
 import (
-	"github.com/aquasecurity/defsec/pkg/providers/azure/authorization"
-	"github.com/aquasecurity/defsec/pkg/scanners/azure"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/azure/authorization"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/azure"
 )
 
 func Adapt(deployment azure.Deployment) authorization.Authorization {

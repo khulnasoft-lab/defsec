@@ -13,7 +13,7 @@ import (
 
 	"github.com/liamg/memoryfs"
 
-	"github.com/aquasecurity/defsec/pkg/detection"
+	"github.com/khulnasoft-lab/defsec/pkg/detection"
 )
 
 func (p *Parser) addTarToFS(path string) (fs.FS, error) {

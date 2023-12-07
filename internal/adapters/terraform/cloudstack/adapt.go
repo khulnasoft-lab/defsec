@@ -1,9 +1,9 @@
 package cloudstack
 
 import (
-	"github.com/aquasecurity/defsec/internal/adapters/terraform/cloudstack/compute"
-	"github.com/aquasecurity/defsec/pkg/providers/cloudstack"
-	"github.com/aquasecurity/defsec/pkg/terraform"
+	"github.com/khulnasoft-lab/defsec/internal/adapters/terraform/cloudstack/compute"
+	"github.com/khulnasoft-lab/defsec/pkg/providers/cloudstack"
+	"github.com/khulnasoft-lab/defsec/pkg/terraform"
 )
 
 func Adapt(modules terraform.Modules) cloudstack.CloudStack {

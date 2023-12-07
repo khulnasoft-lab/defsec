@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io/fs"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/parser/resolvers"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/parser/resolvers"
 )
 
 type ModuleResolver interface {

@@ -3,11 +3,11 @@ package rules
 import (
 	"sync"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/scan"
-	"github.com/aquasecurity/defsec/pkg/state"
-	"github.com/aquasecurity/defsec/pkg/types"
-	"github.com/aquasecurity/defsec/rules/specs"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/state"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/rules/specs"
 	"gopkg.in/yaml.v3"
 )
 

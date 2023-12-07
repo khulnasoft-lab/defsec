@@ -3,7 +3,7 @@ package parser
 import (
 	"io/fs"
 
-	"github.com/aquasecurity/defsec/pkg/scanners/terraform/parser/funcs"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/terraform/parser/funcs"
 	"github.com/hashicorp/hcl/v2/ext/tryfunc"
 	ctyyaml "github.com/zclconf/go-cty-yaml"
 	"github.com/zclconf/go-cty/cty"

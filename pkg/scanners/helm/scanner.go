@@ -8,22 +8,22 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 
-	"github.com/aquasecurity/defsec/pkg/framework"
-	"github.com/aquasecurity/defsec/pkg/scanners"
+	"github.com/khulnasoft-lab/defsec/pkg/framework"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners"
 
-	"github.com/aquasecurity/defsec/pkg/debug"
+	"github.com/khulnasoft-lab/defsec/pkg/debug"
 
-	"github.com/aquasecurity/defsec/pkg/detection"
+	"github.com/khulnasoft-lab/defsec/pkg/detection"
 	"github.com/liamg/memoryfs"
 
-	"github.com/aquasecurity/defsec/pkg/scan"
-	"github.com/aquasecurity/defsec/pkg/scanners/helm/parser"
-	kparser "github.com/aquasecurity/defsec/pkg/scanners/kubernetes/parser"
-	"github.com/aquasecurity/defsec/pkg/scanners/options"
+	"github.com/khulnasoft-lab/defsec/pkg/scan"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/helm/parser"
+	kparser "github.com/khulnasoft-lab/defsec/pkg/scanners/kubernetes/parser"
+	"github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 
-	"github.com/aquasecurity/defsec/pkg/rego"
+	"github.com/khulnasoft-lab/defsec/pkg/rego"
 )
 
 var _ scanners.FSScanner = (*Scanner)(nil)

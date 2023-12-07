@@ -1,6 +1,6 @@
 package parser
 
-import "github.com/aquasecurity/defsec/pkg/scanners/options"
+import "github.com/khulnasoft-lab/defsec/pkg/scanners/options"
 
 type ConfigurableHelmParser interface {
 	options.ConfigurableParser

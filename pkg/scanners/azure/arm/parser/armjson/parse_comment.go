@@ -3,7 +3,7 @@ package armjson
 import (
 	"strings"
 
-	"github.com/aquasecurity/defsec/pkg/types"
+	"github.com/khulnasoft-lab/defsec/pkg/types"
 )
 
 func (p *parser) parseComment(parentMetadata *types.Metadata) (Node, error) {
