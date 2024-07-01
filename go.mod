@@ -12,7 +12,7 @@ require (
 	github.com/liamg/memoryfs v1.6.0
 	github.com/mitchellh/mapstructure v1.5.0
 	github.com/open-policy-agent/opa v0.65.0
-	github.com/owenrumney/squealer v1.2.1
+	github.com/owenrumney/squealer v1.2.2
 	github.com/spf13/cobra v1.8.0
 	github.com/stretchr/testify v1.8.4
 	github.com/zclconf/go-cty v1.13.0
