@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/alecthomas/chroma v0.10.0
-	github.com/antchfx/htmlquery v1.3.0
+	github.com/antchfx/htmlquery v1.3.2
 	github.com/aquasecurity/trivy-policies v0.8.0
 	github.com/google/uuid v1.6.0
 	github.com/hashicorp/hcl/v2 v2.19.1
@@ -30,7 +30,7 @@ require (
 	github.com/ProtonMail/go-crypto v0.0.0-20230828082145-3c4c8a2d2371 // indirect
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/agnivade/levenshtein v1.1.1 // indirect
-	github.com/antchfx/xpath v1.2.3 // indirect
+	github.com/antchfx/xpath v1.3.1 // indirect
 	github.com/apparentlymart/go-textseg/v13 v13.0.0 // indirect
 	github.com/apparentlymart/go-textseg/v15 v15.0.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
