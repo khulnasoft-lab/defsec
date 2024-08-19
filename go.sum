@@ -120,8 +120,8 @@ github.com/mitchellh/mapstructure v1.5.0/go.mod h1:bFUtVrKA4DC2yAKiSyO/QUcy7e+RR
 github.com/onsi/gomega v1.27.10 h1:naR28SdDFlqrG6kScpT8VWpu1xWY5nJRCF3XaYyBjhI=
 github.com/open-policy-agent/opa v0.65.0 h1:wnEU0pEk80YjFi3yoDbFTMluyNssgPI4VJNJetD9a4U=
 github.com/open-policy-agent/opa v0.65.0/go.mod h1:CNoLL44LuCH1Yot/zoeZXRKFylQtCJV+oGFiP2TeeEc=
-github.com/owenrumney/squealer v1.2.3 h1:7v2BGNReEHYGyopOpjnurbnowk5WWagpN/u9KEu0uUU=
-github.com/owenrumney/squealer v1.2.3/go.mod h1:F3PF/UaTAzaexT/cvvMYCSRHLRPBCiUcPClz3SZ6618=
+github.com/owenrumney/squealer v1.2.4 h1:77CEDP10mgvFLWHzUIBTfFIj9RkJ5h36YQhZ48GtjsQ=
+github.com/owenrumney/squealer v1.2.4/go.mod h1:F3PF/UaTAzaexT/cvvMYCSRHLRPBCiUcPClz3SZ6618=
 github.com/pjbgf/sha1cd v0.3.0 h1:4D5XXmUUBUl/xQ6IjCkEAbqXskkq/4O7LmGn0AqMDs4=
 github.com/pjbgf/sha1cd v0.3.0/go.mod h1:nZ1rrWOcGJ5uZgEEVL1VUM9iRQiZvWdbZjkKyFzPPsI=
 github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
