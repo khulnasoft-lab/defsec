@@ -7,7 +7,7 @@ require (
 	github.com/antchfx/htmlquery v1.3.2
 	github.com/aquasecurity/trivy-policies v0.8.0
 	github.com/google/uuid v1.6.0
-	github.com/hashicorp/hcl/v2 v2.21.0
+	github.com/hashicorp/hcl/v2 v2.22.0
 	github.com/khulnasoft-lab/defsec v1.0.4
 	github.com/liamg/iamgo v0.0.9
 	github.com/liamg/memoryfs v1.6.0
